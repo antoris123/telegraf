@@ -1,11 +1,4 @@
 {
-  "extends": ["atomix-base"],
-  "plugins": ["ava"],
-  "parser": "babel-eslint",
-  "globals": {
-    "$Shape": true
-  },
-  "rules": {
-    "no-param-reassign": "off"
-  }
+  "extends": ["standard"],
+  "plugins": ["ava"]
 }
